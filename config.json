@@ -1,0 +1,13 @@
+{
+    "enable-learn": true,
+    "learn-consecutive": 3,
+    "enable-learn-tag": false,
+    "learn-tag": "learnt",
+    "enable-learn-suspend": true,
+    "enable-forget": true,
+    "forget-consecutive": 3,
+    "enable-forget-tag": true,
+    "forget-tag": "relearn",
+    "enable-forget-suspend": true,
+    "ignore-suspended-cards": true
+}
