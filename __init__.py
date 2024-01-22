@@ -108,7 +108,7 @@ def bulk_check_rule_of_3(nids: Sequence):
         card = mw.col.get_card(nid)
         answers[checkCard(card)] += 1
 
-    tooltip(f"Checked {answers[0]} notes.\nMarked {answers[1]} new forgotten cards and {answers[2]} new learnt cards.")
+    tooltip(f"Checked {answers[0]+answers[1]+answers[2]} notes.\nMarked {answers[1]} new forgotten cards and {answers[2]} new learnt cards.")
 
     mw.progress.finish()
     mw.reset()
